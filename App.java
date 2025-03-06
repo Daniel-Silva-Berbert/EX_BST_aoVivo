@@ -4,9 +4,10 @@ public class App {
     
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
-        BSTree bst = new BSTree();
+        
         int op = in.nextInt();
         while(op != 0){
+            BSTree bst = new BSTree();
             for(int i = 0; i < op; ++i){
                 int data = in.nextInt();
                 double temp = in.nextDouble();
